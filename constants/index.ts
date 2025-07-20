@@ -50,7 +50,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6",
     },
-    image: "/assets/images/image8.png",
+    image: "/assets/images/Property1.png",
     discount: "",
   },
   {
@@ -68,7 +68,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "/assets/images/Image9.png",
+    image: "/assets/images/Property2.png",
     discount: "30",
   },
   {
@@ -86,7 +86,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "/assets/images/Image10.png",
+    image: "/assets/images/Property3.png",
     discount: "",
   },
   {
@@ -104,7 +104,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "2-4",
     },
-    image: "/assets/images/Image11.png",
+    image: "/assets/images/Property4.png",
     discount: "15",
   },
   {
@@ -122,7 +122,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "4-6",
     },
-    image: "/assets/images/Image12.png",
+    image: "/assets/images/Property5.png",
     discount: "20",
   },
   {
@@ -140,7 +140,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "8-10",
     },
-    image: "/assets/images/Image13.png",
+    image: "/assets/images/Property6.png",
     discount: "",
   },
   {
@@ -158,7 +158,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "/assets/images/Image15.png",
+    image: "/assets/images/Property7.png",
     discount: "10",
   },
   {
@@ -176,7 +176,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "5-6",
     },
-    image: "/assets/images/Image16.png",
+    image: "/assets/images/Property8.png",
     discount: "25",
   },
   {
@@ -194,7 +194,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "/assets/images/Image17.png",
+    image: "/assets/images/Property9.png",
     discount: "",
   },
   {
@@ -212,7 +212,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "/assets/images/Image19.png",
+    image: "/assets/images/Property10.png",
     discount: "40",
   },
   {
