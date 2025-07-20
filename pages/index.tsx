@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HERO_BG, FILTERS, PROPERTYLISTINGSAMPLE } from "@/constants";
-import Pill from "@/components/common/Pill";
+import Pill from "../components/common/Pill";
 import { Card } from "@/components/common/Card";
 
 const HomePage: React.FC = () => {
@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
             <section className="max-w-7xl mx-auto px-4 py-8">
                 <h2 className="text-2xl font-semibold mb-4">Filter by:</h2>
                 <div className="flex flex-wrap gap-3">
-                    {FILTERS.map((filter) => (
+                    {FILTERS.map((filter: string) => (
                         <Pill
                             key={filter}
                             label={filter}
