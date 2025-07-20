@@ -42,3 +42,5 @@ jspm_packages/
 .docusaurus
 # Storybook build output
 .storybook-out
+.env.local
+.env.development.local
