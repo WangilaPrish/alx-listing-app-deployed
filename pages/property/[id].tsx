@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import PropertyDetail from "../../components/property/PropertyDetail";
 
-// ✅ Define the Property type
+// ✅ Correct Property type definition
 type Property = {
     id: string;
     title: string;
@@ -20,7 +20,6 @@ export default function PropertyDetailPage() {
     const router = useRouter();
     const { id } = router.query;
 
-    // ✅ Use the correct type
     const [property, setProperty] = useState<Property | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
