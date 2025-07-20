@@ -1,14 +1,14 @@
-import { ButtonProps } from '@/interfaces';
-import React from 'react';
+import React from "react";
 
-const Button: React.FC<ButtonProps> = ({ text, onClick, className }) => {
+export const Button: React.FC<
+    React.ButtonHTMLAttributes<HTMLButtonElement>
+> = ({ className = "", children, ...props }) => {
     return (
         <button
-            onClick={onClick}
-            className={`px-4 py-2 rounded bg-blue-500 text-white ${className}`}>
-            {text}
+            className={`px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-50 ${className}`}
+            {...props}
+        >
+            {children}
         </button>
     );
 };
-
-export default Button;
